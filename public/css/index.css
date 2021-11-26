@@ -8,4 +8,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #999;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
 }
