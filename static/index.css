@@ -79,6 +79,8 @@ body {
   padding: 8px 16px;
   border-radius: 4px;
   color: #fff;
+
+  transition: all 1s;
 }
 
 .nav_bar .nav_vessel .right_part .item:hover {
