@@ -1,25 +1,73 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="icon" href="./favicon.ico">
-  <title>vue_pet_endowment</title>
-  <link href="./css/app.f3edaeb6.css" rel="preload" as="style">
-  <link href="./css/chunk-vendors.9c0a0257.css" rel="preload" as="style">
-  <link href="./js/app.840b223f.js" rel="preload" as="script">
-  <link href="./js/chunk-vendors.50e8e21a.js" rel="preload" as="script">
-  <link href="./css/chunk-vendors.9c0a0257.css" rel="stylesheet">
-  <link href="./css/app.f3edaeb6.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>villi</title>
+  <link rel="stylesheet" href="./static/index.css">
 </head>
 
-<body><noscript><strong>We're sorry but vue_pet_endowment doesn't work properly without JavaScript enabled. Please
-      enable it to continue.</strong></noscript>
-  <div id="app"></div>
-  <script src="./js/chunk-vendors.50e8e21a.js"></script>
-  <script src="./js/app.840b223f.js"></script>
+<body>
+  <!-- 遮罩层 -->
+  <div class="mask"></div>
+
+  <!-- 导航栏 -->
+  <div class="nav_bar">
+    <div class="nav_vessel">
+      <div class="left_part">VILLI</div>
+      <div class="right_part">
+        <a href="#index" class="item">首页</a>
+        <a href="#about_me" class="item">关于</a>
+        <a href="#my_work" class="item">作业</a>
+        <div class="item">主题</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 首页信息 -->
+  <div class="vessel index_page" id="index">
+    <div>
+      <span class="bottom_line">向未来进发</span>
+      <span>/* villi 的个人网页 */</span>
+    </div>
+  </div>
+
+  <!-- 关于我的信息 -->
+  <div class="vessel about_me_page" id="about_me">
+    <div>
+      <span class="bottom_line">关于我</span>
+      <span>
+        <span>我是秦小龙</span>
+        <span>你可以叫我villi</span>
+        <span>二次元轻度患者</span>
+        <span>喜欢撸猫，但是和猫猫八字不合总被抓</span>
+        <span>阴阳师非酋闲鱼</span>
+        <span>现在是一个大学牲</span>
+        <span>哭</span>
+        <span>(ó﹏ò｡) </span>
+      </span>
+    </div>
+  </div>
+
+  <!-- 我的作品 -->
+  <div class="vessel work_page" id="my_work">
+    <div>
+      <span class="bottom_line">我的作品</span>
+      <div class="work_vessel">
+        <a class="item">作品1</a>
+        <a class="item">作品2</a>
+        <a class="item">作品3</a>
+        <a class="item">作品4</a>
+        <a class="item">作品5</a>
+        <a class="item">作品6</a>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>
+
+<script src="./static/index.js"></script>
