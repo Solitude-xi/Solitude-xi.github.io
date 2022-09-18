@@ -1,0 +1,46 @@
+/* 选择一个主题 */
+@import url(./themes/theme_01_lilaixiao.css);
+
+body {
+  background-color: var(--bg-color);
+}
+
+.md_in_html_ve {
+  display: table;
+  margin: 0 auto;
+}
+
+.md_in_html_ve img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 手机 */
+@media screen and (max-width:768px) {
+  .md_in_html_ve {
+    max-width: 80%;
+  }
+}
+
+/* 平板 */
+@media screen and (min-width:768px) and (max-width:992px) {
+  .md_in_html_ve {
+    max-width: 70%;
+  }
+}
+
+/* 电脑 */
+@media screen and (min-width:992px) and (max-width:1200px) {
+  .md_in_html_ve {
+    max-width: 60%;
+  }
+}
+
+/* 大屏幕 */
+@media screen and (min-width:1200px) {
+  .md_in_html_ve {
+    max-width: 50%;
+  }
+}
+
